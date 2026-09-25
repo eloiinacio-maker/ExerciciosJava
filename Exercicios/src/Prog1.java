@@ -11,7 +11,7 @@ public class Prog1 {
         int voltas = 0;
         do {
 
-            System.out.println("digite qualquer palavra (1 chance): ");
+            System.out.println("digite qualquer palavra  ("+voltas+ "chance): ");
             texto = leitura.next();
             voltas++;// Soma mais 1 em voltas
 if (voltas<3){
