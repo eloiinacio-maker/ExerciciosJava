@@ -37,14 +37,14 @@ public class Main {
                 qtdNaoEstudantes++;
             }
 
-            // Pergunta para controlar o laço do-while
+            // Pergunta vc quer cadastrar outra pessoa .
             System.out.print("Deseja cadastrar outra pessoa? (s/n): ");
             continuar = entrada.next();
 
         } while (continuar.equalsIgnoreCase("s"));
 
         // Exibição dos resultados (com validação para evitar divisão por zero)
-        System.out.println("\n--- RESULTADOS ---");
+        System.out.println("\n ======= RESULTADOS ======");
 
         if (qtdEstudantes > 0) {
             double mediaEstudantes = (double) somaIdadeEstudantes / qtdEstudantes;
