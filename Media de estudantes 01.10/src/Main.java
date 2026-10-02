@@ -10,18 +10,43 @@ public class Main {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         int idade;
-        char continuar;
+        String continuar = "Sim";
+String estudante;
+        do {
+            System.out.print("Digite a idade: ");
+            idade = entrada.nextInt();
 
-        System.out.print("Digite a idade: ");
+// A pessoa é estudante sim ou não .
+            System.out.print("vc é estudante s/n: ");
+            estudante = entrada.next();
 
 
 
 
+
+
+
+
+
+
+
+
+        } while (continuar.equalsIgnoreCase("s"));
 
 
     }
 
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
