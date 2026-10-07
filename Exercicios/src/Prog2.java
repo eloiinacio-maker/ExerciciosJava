@@ -24,5 +24,5 @@ public class Prog2 {
 
 
 
-        }while
-    } }
+        }while;
+    }
