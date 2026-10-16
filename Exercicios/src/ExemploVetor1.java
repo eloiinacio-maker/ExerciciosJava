@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-
 public class ExemploVetor1 {
-    static void main() {
+    public static void main(String[]args) {
+
         Scanner entrada = new Scanner(System.in);
         // pergunta qual a linha de produto (1,2 ou 3)
         // pergunta a quantidade do produto

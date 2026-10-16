@@ -5,24 +5,21 @@ public class Prog2 {
         Scanner entrada = new Scanner(System.in);
 
         double altura;
-        int contador;
-        double soma;
+        int contador = 0;
+        double soma = 0;
         String mais;
 
-        do{
+        do {
             //-Perguntar a altura
             System.out.println("digite a altura: ");
-            altura= entrada.nextDouble();
-            soma+=altura;// acumula o total
+            altura = entrada.nextDouble();
+            soma += altura;// acumula o total
             contador++;
             // _ Perguntar se tem mais
             // _ Repetir enquanto têm mais
             // _ Imprimir a media de altura do final .
 
 
-
-
-
-
-        }while;
+        } while (1 == 1); // só pra não dar erro depois troca
     }
+}
