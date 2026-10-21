@@ -4,10 +4,12 @@ package ExerciciosVetores;
 
 public class Exercicio1 {
     public static void main(String[] args) {
-        String[] cores = new String[7];
-        System.out.println(" Quero que vc confirme as cores: ");
+        String[] cores = {"vermelho","Laranja","Amarelo","verde","violeta","Lilas","Roxo",};
+
+
+        System.out.println(" As sete cores do Arco irís são : ");
         for (int i = 0; i < cores.length; i++) {
-            System.out.println("Índice [" + i + "] = " + cores[i]);
+            System.out.println("cores [" + i + "] = cor " + cores[i]);
 
         }
 
