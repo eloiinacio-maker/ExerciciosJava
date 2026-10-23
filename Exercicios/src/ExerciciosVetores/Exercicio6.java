@@ -2,6 +2,8 @@ package ExerciciosVetores;
 
 
     import java.util.Scanner;
+    // 6. Desafio: no programa 5, um jeito de "roubar" é responder sete vezes a mesma cor certa.
+// O contador registra sete acertos e encerra a repetição. Como saber se a pessoa já acertou a mesma cor antes?
 
     public class Exercicio6 {
         public static void main(String[] args) {
