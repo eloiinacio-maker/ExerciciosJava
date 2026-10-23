@@ -2,6 +2,12 @@ package ExerciciosVetores;
 
 import java.util.Scanner;
 
+// 5. Um campeonato de luta tem seis categorias.
+// Crie um vetor de int com os limites mínimos de peso de cada categoria
+// (0, 55, 65, 75, 85, 100) e um vetor de nomes das categorias
+// (pena, leve, médio, meio-pesado, pesado, super-pesado).
+// Em seguida peça para o usuário digitar pesos e diga em que categoria aquele peso se enquadra.
+
     public class Exercicio5 {
         public static void main(String[] airgs) {
             Scanner scanner = new Scanner(System.in);
