@@ -17,14 +17,17 @@ public class CarteiraMotorista {
 // A PESSOA SÓ PODE INFORMAR UMA LETRA DE CADA VEZ ( NÃO PODE INFORMAR "AB" )
         System.out.println("Vc Têm a categoria A ou B :");
         Categoria = leitura.next();
-        if (Categoria.equalsIgnoreCase("A ou B ")) {
-
-
-            System.out.println(" Categoria A , vc têm a categoria de moto  ");
-            System.out.println("vc Têm a categoria B , vc têm a categoria de carro ");
-
-
-            leitura.close();
+        if (Categoria.equalsIgnoreCase("A")) {
+            System.out.println("Categoria A: Você tem habilitação para moto.");
+        } else if (Categoria.equalsIgnoreCase("B")) {
+            System.out.println("Categoria B: Você tem habilitação para carro.");
+        } else {
+            System.out.println("Categoria inválida! Por favor, digite apenas A ou B.");
         }
     }
 }
+
+
+
+
+
